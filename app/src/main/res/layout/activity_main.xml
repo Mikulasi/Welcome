@@ -16,5 +16,10 @@
         android:id="@+id/welcomeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:text="Hello World!"
+        tools:text="@string/welcome"
+        android:textSize="@dimen/welcome_textsize"
+        android:textColor="@color/welcome_text_color"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
 </LinearLayout>
